@@ -1,0 +1,15 @@
+{
+  "Title": "Sample Editor App",
+  "Type": "library",
+  "Org": "quack",
+  "Ident": "sampleapp",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "IsWhitelistDisabled": false,
+  "Metadata": {
+    "CsProjName": ""
+  }
+}

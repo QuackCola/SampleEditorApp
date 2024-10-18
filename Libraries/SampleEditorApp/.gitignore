@@ -1,0 +1,20 @@
+# Auto-generated code editor files
+
+.vs/*
+.vscode/*
+*.csproj
+obj/*
+Properties/*
+code/obj/*
+**/code/obj/*
+**/code/Properties/*
+**/Editor/obj/*
+**/Editor/Properties/*
+*.sln
+
+# Auto-generated asset related files
+
+*.generated.*
+*.*_c
+*.los
+*.vpk
