@@ -315,9 +315,9 @@ public class MainWindow : DockWindow, IAssetEditor
 
 		_defaultDockState = DockManager.State;
 
-		if ( StateCookie != "EditorAppTemplate" )
+		if ( StateCookie != EditorAppInfo.StateCookieName )
 		{
-			StateCookie = "EditorAppTemplate";
+			StateCookie = EditorAppInfo.StateCookieName;
 		}
 		else
 		{
