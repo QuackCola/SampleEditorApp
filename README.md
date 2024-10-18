@@ -1,1 +1,1 @@
-Shrimple editor app example.
+Shrimple editor app example for s&box.
