@@ -1,9 +1,7 @@
-﻿
-namespace Editor.SampleEditorAppTemplate;
-
+﻿namespace Editor.SampleEditorAppTemplate;
 
 /// <summary>
-/// container for readonly editor app configuration options.
+/// Container for readonly editor app configuration options.
 /// </summary>
 public static class EditorAppInfo 
 {
