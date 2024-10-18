@@ -1,7 +1,7 @@
 {
-  "Title": "Sample Editor App",
+  "Title": "Sample Editor App Dev",
   "Type": "game",
-  "Org": "quack",
+  "Org": "local",
   "Ident": "sampleapp_dev",
   "Schema": 1,
   "IncludeSourceFiles": false,
