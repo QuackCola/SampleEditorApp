@@ -18,6 +18,11 @@ public static class EditorAppInfo
 	public static string NameFriendly => "sampleeditorapp";
 
 	/// <summary>
+	/// Name of the StateCookie for this editor app.
+	/// </summary>
+	public static string StateCookieName => "SampleEditorApp";
+
+	/// <summary>
 	/// Library folder name that this editor app resides in. ( Only used for Development )
 	/// </summary>
 	public static string LibraryDevFolderName => "SampleEditorApp";
