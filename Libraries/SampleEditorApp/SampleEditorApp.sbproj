@@ -1,7 +1,7 @@
 {
   "Title": "Sample Editor App",
   "Type": "library",
-  "Org": "quack",
+  "Org": "local",
   "Ident": "sampleapp",
   "Schema": 1,
   "IncludeSourceFiles": false,
