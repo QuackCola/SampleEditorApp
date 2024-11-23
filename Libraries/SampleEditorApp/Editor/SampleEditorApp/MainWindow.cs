@@ -104,10 +104,10 @@ public class MainWindow : DockWindow, IAssetEditor
 	public void BuildMenuBar()
 	{
 		var file = MenuBar.AddMenu( "File" );
-		file.AddOption( "New", "common/new.png", New, "editor.new" ).StatusText = "New File";
-		file.AddOption( "Open", "common/open.png", Open, "editor.open" ).StatusText = "Open File";
-		file.AddOption( "Save", "common/save.png", Save, "editor.save" ).StatusText = "Save File";
-		file.AddOption( "Save As...", "common/save.png", SaveAs, "editor.save-as" ).StatusText = "Save File As...";
+		file.AddOption( "New", "common/new.png", New, "editor.new" ).StatusTip = "New File";
+		file.AddOption( "Open", "common/open.png", Open, "editor.open" ).StatusTip = "Open File";
+		file.AddOption( "Save", "common/save.png", Save, "editor.save" ).StatusTip = "Save File";
+		file.AddOption( "Save As...", "common/save.png", SaveAs, "editor.save-as" ).StatusTip = "Save File As...";
 
 		file.AddSeparator();
 
@@ -115,7 +115,7 @@ public class MainWindow : DockWindow, IAssetEditor
 
 		file.AddSeparator();
 
-		file.AddOption( "Quit", null, Quit, "editor.quit" ).StatusText = "Quit";
+		file.AddOption( "Quit", null, Quit, "editor.quit" ).StatusTip = "Quit";
 
 		var edit = MenuBar.AddMenu( "Edit" );
 
@@ -143,8 +143,7 @@ public class MainWindow : DockWindow, IAssetEditor
 
 		_recentFilesMenu.Clear();
 
-		_recentFilesMenu.AddOption( "Clear recent files", null, ClearRecentFiles )
-			.StatusText = "Clear recent files";
+		_recentFilesMenu.AddOption( "Clear recent files", null, ClearRecentFiles ).StatusTip = "Clear recent files";
 
 		_recentFilesMenu.AddSeparator();
 
@@ -158,8 +157,7 @@ public class MainWindow : DockWindow, IAssetEditor
 
 			var filePath = _recentFiles[i];
 
-			_recentFilesMenu.AddOption( $"{++fileCount} - {filePath}", null, () => PromptSave( () => Open( filePath ) ) )
-				.StatusText = $"Open {filePath}";
+			_recentFilesMenu.AddOption( $"{++fileCount} - {filePath}", null, () => PromptSave( () => Open( filePath ) ) ).StatusTip = $"Open {filePath}";
 		}
 	}
 
