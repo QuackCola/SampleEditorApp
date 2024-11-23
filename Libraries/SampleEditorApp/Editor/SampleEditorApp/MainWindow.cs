@@ -1,7 +1,4 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace Editor.SampleEditorAppTemplate;
+﻿namespace Editor.SampleEditorAppTemplate;
 
 //[EditorForAssetType( "" )]
 [EditorApp( "Sample Editor App", "category", "Sample editor app" )]
